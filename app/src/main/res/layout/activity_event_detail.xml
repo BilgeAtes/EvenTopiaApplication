@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Başlık"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Açıklama"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/detailDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Tarih"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/detailLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Lokasyon"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonBuyTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilet Al (QR)"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

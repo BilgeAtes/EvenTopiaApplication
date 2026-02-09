@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EvenTopia</string>
+
+    <!-- Create Event ekranı -->
+    <string name="hint_title">Etkinlik Başlığı</string>
+    <string name="hint_description">Açıklama</string>
+    <string name="hint_date">Tarih (ör: 12.12.2025)</string>
+    <string name="hint_location">Lokasyon</string>
+    <string name="button_save">Kaydet</string>
+</resources>
